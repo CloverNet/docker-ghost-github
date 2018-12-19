@@ -1,11 +1,13 @@
 # docker-ghost-github
 
-### Form
+### From
+
 - docker
 - [ghost-custome-storage](https://docs.ghost.org/concepts/storage-adapters/)
 - [ghost-github-storage](https://github.com/wangkezun/ghost-github-storage)
 
 ### Config.`env`.json
+
 - Add Storage
 
 ```
@@ -19,9 +21,11 @@
       }
   }
 ```
+
 ### Docker
+
 ```
-  docker run -d -p 2368:2368 -name YOUR-GHOST 760450699/ghost-github:latest
+  docker run -d -p 2368:2368 -name YOUR-GHOST 760450699/docker-ghost-github:latest
 ```
 
 
