@@ -25,7 +25,7 @@
 ### Docker
 
 ```
-  docker run -d -p 2368:2368 -name YOUR-GHOST 760450699/docker-ghost-github:latest
+  docker run -d -p 2368:2368 --name YOUR-GHOST 760450699/docker-ghost-github:latest
 ```
 
 
